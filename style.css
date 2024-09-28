@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: red
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container .t-esquerda{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+
+.container .t-direta{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container .t-direta .card{
+   width: 100%;
+   height: 30px;
+   display: flex;
+   color: black;
+   justify-content: center;
+   align-items: center;
+}
+
+.card .meio input{
+    display: flex;
+    justify-content: center;
+    
+}
