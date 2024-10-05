@@ -80,3 +80,11 @@ body{
     width: 20px;
 }
    
+@media(max-width:500px) {
+    .esquerda{
+        display: flex;
+    }
+    .direita {
+        display: flex;
+
+}
